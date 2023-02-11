@@ -32,7 +32,7 @@ void parse_payload(const u_char * payload, u_int size)
         if(size - i > 5 && (strncmp(payload + i, "name=", 5) == 0 ||
                             strncmp(payload + i, "user=", 5) == 0))
         {
-            fprintf(stdout, "************************************************\n");
+            fprintf(stdout, "\n************************************************\n");
             fprintf(stdout, "************************************************\n");
             fprintf(stdout, "********** Possible login details !! ***********\n");
             fprintf(stdout, "************************************************\n");
