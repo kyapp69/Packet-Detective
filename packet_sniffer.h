@@ -12,6 +12,6 @@
 		"\\_|  \\__,_|\\___|_|\\_\\___|\\__| |___/ \\___|\\__\\___|\\___|\\__|_| \\_/ \\___|\n\n"\
 
 
-int do_sniff(char* filter);
+int do_sniff(char* filter, char* name);
 
 #endif
